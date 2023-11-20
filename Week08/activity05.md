@@ -85,7 +85,7 @@ docker exec -ti dataopt_mongodb bash
 ```
 ## 11. run `mongoimport` to import the data into mongodb:
 ```
-mongoimport -u root -p example --authenticationDatabase admin --db restaurant  --type json --file /tmp/restaurant.json
+mongoimport -u root -p example --authenticationDatabase admin --db sampleDB  --type json --file /tmp/restaurant.json
 ```
 
 ---
