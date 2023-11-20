@@ -74,10 +74,10 @@ role: Cook
 ```
 
 ## 7. Create a **database** named "sampleDB"
-## 8. download the dataset [here](https://github.com/ozlerhakan/mongodb-json-files/blob/master/datasets/countries-small.json)
+## 8. download the dataset [here](https://github.com/ozlerhakan/mongodb-json-files/blob/master/datasets/restaurant.json)
 ## 9. copy the data from the host unto the docker container:
 ```
-docker cp countries-small.json dataopt_mongodb:/tmp/countries-small.json
+docker cp restaurant.json dataopt_mongodb:/tmp/restaurant.json
 ```
 ## 10. "bash" into the mongo container
 ```
@@ -85,7 +85,7 @@ docker exec -ti dataopt_mongodb bash
 ```
 ## 11. run `mongoimport` to import the data into mongodb:
 ```
-mongoimport -u root -p example --authenticationDatabase admin --db countries  --type json --file /tmp/countries-small.json
+mongoimport -u root -p example --authenticationDatabase admin --db restaurant  --type json --file /tmp/restaurant.json
 ```
 
 ---
@@ -94,5 +94,5 @@ mongoimport -u root -p example --authenticationDatabase admin --db countries  --
 ```
 docker exec -ti dataopt_mongodb mongosh -u root -p example
 
-use countries
+use restaurant
 ```
