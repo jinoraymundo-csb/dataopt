@@ -26,7 +26,7 @@ mongoimport --db restaurant --jsonArray --file /tmp/restaurants.json
 9. Get `name`, `address` from `restaurant` where `cuisine` is either "Filipino", "Thai", or "Japanese" that is within 40 to 41 latitude, and -73 to -74 longitude
 10. Get `name`, `address.coords` from `restaurant` where `cuisine` is either "French", or "Italian" that is within 40 to 41 latitude, and -73 to -74 longitude
 
-## Delivarables
+## Deliverables
 1. on the file `scripts/raymundo_jinopaulo.js` (example):
 
 ```
