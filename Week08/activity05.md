@@ -74,7 +74,7 @@ role: Cook
 ```
 
 ## 7. Create a **database** named "sampleDB"
-## 8. download the dataset [here](https://github.com/ozlerhakan/mongodb-json-files/blob/master/datasets/restaurant.json)
+## 8. download the dataset [here](https://raw.githubusercontent.com/IronPTSolutions/mongo-examples/master/datasets/restaurants.json)
 ## 9. copy the data from the host unto the docker container:
 ```
 docker cp restaurant.json dataopt_mongodb:/tmp/restaurant.json
