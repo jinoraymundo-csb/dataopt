@@ -4,8 +4,9 @@
 2. Download the sample dataset [here](https://raw.githubusercontent.com/IronPTSolutions/mongo-examples/master/datasets/restaurants.json) and save it on `quiz03` folder
 3. add a `scripts` folder under `quiz03` folder
 4. name your file as `scripts/<lastname>_<firstname>.js` e.g. `scripts/raymundo_jinopaulo.js`
-5. execute the following docker commands on the terminal:
+5. execute the following docker commands on the terminal: 
 ```
+cd quiz03
 docker run --name dataopt-quiz03 --rm -p 27017:27017 -v ${PWD}/scripts:/scripts -d mongo:latest
 docker cp restaurants.json dataopt-quiz03:/tmp/restaurants.json
 docker exec -it dataopt-quiz03 bash
