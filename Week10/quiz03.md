@@ -3,7 +3,7 @@
 1. Start with `quiz03` directory under `Week10`
 2. Download the sample dataset [here](https://raw.githubusercontent.com/IronPTSolutions/mongo-examples/master/datasets/restaurants.json) and save it on `quiz03` folder
 3. add a `scripts` folder under `quiz03` folder
-4. name your file as `<lastname>_<firstname>.js` e.g. `raymundo_jinopaulo.js`
+4. name your file as `scripts/<lastname>_<firstname>.js` e.g. `scripts/raymundo_jinopaulo.js`
 5. execute the following docker commands on the terminal:
 ```
 docker run --name dataopt-quiz03 --rm -p 27017:27017 -v ${PWD}/scripts:/scripts -d mongo:latest
