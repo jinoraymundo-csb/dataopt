@@ -6,5 +6,5 @@
 3. Run the following docker command:
 
 ```
-docker run -it --rm -p 10000:8888 -v "${PWD}":/home/jovyan/work quay.io/jupyter/datascience-notebook:2023-11-17
+docker run -it --rm -p 10000:8888 -v ${PWD}:/home/jovyan/work quay.io/jupyter/datascience-notebook:2023-11-17
 ```
