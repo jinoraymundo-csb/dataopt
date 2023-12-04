@@ -1,8 +1,8 @@
 # Quiz 03: Document Filtering in MongoDB
 
 1. Start with `quiz03` directory under `Week10`
-2. Download the sample dataset [here](https://raw.githubusercontent.com/IronPTSolutions/mongo-examples/master/datasets/restaurants.json) and save it on `Week10` folder
-3. add a `scripts` folder under `Week10` folder
+2. Download the sample dataset [here](https://raw.githubusercontent.com/IronPTSolutions/mongo-examples/master/datasets/restaurants.json) and save it on `quiz03` folder
+3. add a `scripts` folder under `quiz03` folder
 4. name your file as `<lastname>_<firstname>.js` e.g. `raymundo_jinopaulo.js`
 5. execute the following docker commands on the terminal:
 ```
