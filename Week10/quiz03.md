@@ -32,13 +32,13 @@ mongoimport --db restaurant --jsonArray --file /tmp/restaurants.json
 ```
 db = db.getSiblingDB('restaurant');
 
-var query01 = db.find();  // this is where you should write your answers to 
+var query01 = db.restaurants.find();  // this is where you should write your answers to 
 print(`Question 01: `);
 printjson(query01);
 
 ...
 
-var query10 = db.find();  // this is where you should write your answers to 
+var query10 = db.restaurants.find();  // this is where you should write your answers to 
 print(`Question 10: `);
 printjson(query10);
 ```
