@@ -6,5 +6,5 @@
 3. Run the following docker command:
 
 ```
-docker run -it --rm -p 8888:8888 -v ${PWD}/notebooks:/home/jovyan/work quay.io/jupyter/minimal-notebook:2023-11-17
+docker run -it --rm -p 8888:8888 -v ${PWD}/notebooks:/home/jovyan/work quay.io/jupyter/minimal-notebook:2023-12-04
 ```
