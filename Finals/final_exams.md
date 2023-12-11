@@ -1,7 +1,7 @@
 # DATAOPT Final Exams
 
 1. Start with `finals` directory
-2. Download the sample dataset [here](https://raw.githubusercontent.com/IronPTSolutions/mongo-examples/master/datasets/companies.json) and save it on `finals` folder
+2. Download the sample dataset [here](https://raw.githubusercontent.com/jinoraymundo-csb/dataopt/master/Finals/companies.json) and save it on `finals` folder
 3. add a `scripts` folder under `finals` folder
 4. name your file as `FE_<lastname>_<firstname>.js` e.g. `FE_raymundo_jinopaulo.js`
 5. execute the following docker commands on the terminal:
